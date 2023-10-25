@@ -1,0 +1,14 @@
+a=10;
+b=20;
+c=a+b;
+d=a-b;
+e=a*b;
+f=b/a;
+g=b%a;
+h=a**b;
+print("THE SUM IS:",c)
+print("THE DIFFERENCE IS:",d)
+print("THE PRODUCE IS:",e)
+print("THE DIVISON IS:",f)
+print("THE REMAINDER IS:",g)
+print("THE EXPONENTIAL IS:",h)
