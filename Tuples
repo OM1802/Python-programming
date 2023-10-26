@@ -8,3 +8,4 @@ print(shoppingList[1:3])
 shoppingList[3]="Notebook"
 del(shoppingList[4])
 print(shoppingList)
+print(shoppingList.index("Laptop"),"is the index of item Laptop")
