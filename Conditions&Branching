@@ -1,0 +1,5 @@
+albumyear=1991
+if(albumyear<1980):
+    print("ALBUM WAS RELEASED BEFORE 1980")
+elif(albumyear==1991 or albumyear==1993):
+    print("ALBUM WAS RELEASED IN YEAR: ",albumyear)
