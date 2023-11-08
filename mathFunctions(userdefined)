@@ -1,0 +1,11 @@
+a=float(input("ENTER FIRST VALUE: "))
+b=float(input("ENTER SECOND VALUE "))
+def add(a,b):
+    return a+b
+def diff(a,b):
+    return b-a
+def pro(a,b):
+    return a*b
+print("THE SUM OF NUMBER IS: ",add(a,b))
+print("THE DIFFERENCE OF NUMBER IS: ",diff(a,b))
+print("THE PRODUCT OF NUMBER IS: ",pro(a,b))
