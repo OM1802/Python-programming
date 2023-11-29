@@ -1,0 +1,13 @@
+def parallelogram_area(base, height):
+    return base * height
+
+def parallelogram_perimeter(side1, side2):
+    return 2 * (side1 + side2)
+base = float(input("Enter the base of the parallelogram: "))
+height = float(input("Enter the height of the parallelogram: "))
+side1 = float(input("Enter the length of one side of the parallelogram: "))
+side2 = float(input("Enter the length of the adjacent side of the parallelogram: "))
+area = parallelogram_area(base, height)
+perimeter = parallelogram_perimeter(side1, side2)
+print(f"The area of the parallelogram is: {area}")
+print(f"The perimeter of the parallelogram is: {perimeter}")
