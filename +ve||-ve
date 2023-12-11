@@ -1,0 +1,7 @@
+a=int(input("ENTER A NUMBER \n"))
+if(a>0):
+    print(a, "IS A POSITIVE NUMBER")
+elif(a<0):
+    print(a, "IS AN NEGATIVE NUMBER")
+else:
+    print("THE NUMBER ENTERED APPEARS TO BE NIL(0)")
