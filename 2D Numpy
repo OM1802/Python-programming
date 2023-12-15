@@ -1,6 +1,8 @@
 import numpy as np
 
-# Create a 2D array
-arr_2d = np.array([[1, 2, 3], [4, 5, 6]])
-
-print(arr_2d)
+A = np.array([[0, 1, 1], [1, 0, 1]])
+B = np.array([[1, 1], [1, 1], [-1, 1]])
+Z = np.dot(A,B)
+np.sin(Z)
+C = np.array([[1,1],[2,2],[3,3]])
+print(C.T)
