@@ -1,3 +1,5 @@
+#PLEASE MAKE SURE THAT YOU HAVE INSTALLED THE "pyttsx3 and wikipedia module" BEFORE RUNNING THIS PROGRAM
+
 import pyttsx3
 import wikipedia
 
