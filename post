@@ -1,0 +1,8 @@
+import requests
+
+url='http://httpbin.org/post'
+payload='OM JAISWAL'
+r_post=requests.post(url,data=payload)
+print("POST request URL:",r_post.url )
+print("POST request body:",r_post.request.body)
+print(r_post.json()['form'])
