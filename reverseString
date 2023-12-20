@@ -1,0 +1,2 @@
+txt =input("ENTER THE STRING \n")[::-1]
+print(txt)
