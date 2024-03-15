@@ -10,6 +10,5 @@ print(x)
 # Creating an array from 10 to 49 using arange
 x = np.arange(10, 50)
 
-# Printing the array from 10 to 49
 print("Array from 10 to 50:")
 print(x) 
