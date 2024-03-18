@@ -1,0 +1,9 @@
+def list_to_dict(keys, values):
+    dictionary = {keys[i]: values[i] for i in range(min(len(keys), len(values)))}
+    return dictionary
+
+keys_list = ["a", "b", "c"]
+values_list = [1, 2, 3]
+
+result_dict = list_to_dict(keys_list, values_list)
+print(result_dict)
