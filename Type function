@@ -1,3 +1,4 @@
+#type in built function to know the type of variable 
 a={1,2,3,4,5}
 b=(1,2,3,4,5)
 c=[1,2,3,4,5]
