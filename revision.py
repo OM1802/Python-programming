@@ -1,3 +1,4 @@
+#greatest of 4 numbers 
 a=int(input("ENTER VALUE: "))
 b=int(input("ENTER VALUE: "))
 c=int(input("ENTER VALUE: "))
@@ -10,15 +11,18 @@ elif(c>a and c>b and c>d):
     print(c, "IS THE GREATEST NUMBER")
 else:
     print(d, "IS THE GREATEST NUMBER")
-    
+
+#odd numbers
 for n in range(1,10,2):
     print(n)
-    
+
+#pattern
 for i in range(5):
     for j in range(i+1):
         print(j, end=" ")
     print()
 
+#area of a room
 a=40
 b=50
 cs=4
