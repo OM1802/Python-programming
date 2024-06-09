@@ -1,3 +1,4 @@
+#Revision practice class codes
 #greatest of 4 numbers 
 a=int(input("ENTER VALUE: "))
 b=int(input("ENTER VALUE: "))
@@ -16,13 +17,13 @@ else:
 for n in range(1,10,2):
     print(n)
 
-#pattern
+#right angle triangle 📐 pattern 
 for i in range(5):
     for j in range(i+1):
         print(j, end=" ")
     print()
 
-#area of a room
+#area of a room, no of chair size accomodable
 a=40
 b=50
 cs=4
