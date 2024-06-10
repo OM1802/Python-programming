@@ -1,4 +1,6 @@
 #Revision practice class codes
+import pandas as pd
+import numpy as np
 #greatest of 4 numbers 
 a=int(input("ENTER VALUE: "))
 b=int(input("ENTER VALUE: "))
@@ -29,3 +31,10 @@ b=50
 cs=4
 ar=(2*(a+b))
 print(ar/cs)
+
+d1=np.array([10,20,30,40,50])#using array
+d2=[1,2,3,4,5]#using list
+d3=(70,52,41,71,55)#using tuple
+d4={'OM':35, 'RAWAT':100, 'SHIWA':80, 'UDIT':50}#using set
+myseries=pd.Series(d4)
+print(myseries)
