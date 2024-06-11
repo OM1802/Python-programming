@@ -39,3 +39,23 @@ d3=(70,52,41,71,55)#using tuple
 d4={'OM':35, 'RAWAT':100, 'SHIWA':80, 'UDIT':50}#using set
 myseries=pd.Series(d4)
 print(myseries)
+
+
+def add(a,b):
+    print(a+b)
+
+def sub(a,b):
+    print(a-b)
+    
+def div(a,b):
+    print(a//b)
+
+def pro(a,b):
+    print(a*b)
+    
+a=int(input("ENTER FIRST VALUE: "))
+b=int(input("ENTER SECOND VALUE: "))
+add(a,b)
+sub(a,b)
+div(a,b)
+pro(a,b)
