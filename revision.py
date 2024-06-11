@@ -32,6 +32,7 @@ cs=4
 ar=(2*(a+b))
 print(ar/cs)
 
+#implementation of pandas library using different data structures
 d1=np.array([10,20,30,40,50])#using array
 d2=[1,2,3,4,5]#using list
 d3=(70,52,41,71,55)#using tuple
