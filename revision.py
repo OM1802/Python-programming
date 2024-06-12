@@ -59,3 +59,49 @@ add(a,b)
 sub(a,b)
 div(a,b)
 pro(a,b)
+
+student_details = {
+    101: 'John',
+    102: 'Alice',
+    103: 'Bob',
+    104: 'Emily',
+    105: 'David'
+}
+
+
+student_marks = {
+    101: 95,
+    102: 87,
+    103: 78,
+    104: 65,
+    105: 53
+}
+
+
+def assign_grade(marks):
+    if marks >= 90:
+        return 'O'
+    elif marks >= 80:
+        return 'A+'
+    elif marks >= 70:
+        return 'A'
+    elif marks >= 60:
+        return 'B+'
+    elif marks >= 50:
+        return 'B'
+    else:
+        return 'Fail'
+
+
+student_results = {}
+
+for reg_num, name in student_details.items():
+    marks = student_marks.get(reg_num)
+    if marks is not None:
+        grade = assign_grade(marks)
+        student_results[name] = {'Registration Number': reg_num, 'Marks': marks, 'Grade': grade}
+
+
+print("Student Results:")
+for name, result in student_results.items():
+    print(f"Name: {name}, Registration Number: {result['Registration Number']}, Marks: {result['Marks']}, Grade: {result['Grade']}")
