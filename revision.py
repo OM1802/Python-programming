@@ -41,6 +41,7 @@ myseries=pd.Series(d4)
 print(myseries)
 
 
+#functions using def
 def add(a,b):
     print(a+b)
 
@@ -60,6 +61,7 @@ sub(a,b)
 div(a,b)
 pro(a,b)
 
+#switch case
 student_details = {
     101: 'John',
     102: 'Alice',
