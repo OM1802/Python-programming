@@ -41,7 +41,7 @@ myseries=pd.Series(d4)
 print(myseries)
 
 
-#functions using def
+#user defined mathematical function declaration and calling 
 def add(a,b):
     print(a+b)
 
