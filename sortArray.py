@@ -1,3 +1,4 @@
+#code to sort elements of an array 
 arr = [5, 2, 8, 7, 1];     
 temp = 0;     
 print("Elements of original array: ");    
