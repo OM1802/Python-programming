@@ -1,3 +1,4 @@
+#code to calculate the sum of digits of a number
 def getSum(n):
     
     sum = 0
