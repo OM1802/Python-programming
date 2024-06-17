@@ -1,3 +1,4 @@
+#code to check if a string is anagram or not
 def check(s1, s2):
 
      
