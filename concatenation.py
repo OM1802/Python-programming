@@ -1,3 +1,4 @@
+#code to concatenate two strings
 str1="Hello"
 str2="World"
 print ("String 1:",str1)
