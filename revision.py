@@ -116,3 +116,12 @@ total= 0
 for num in numbers:
     total+= num
 print("The sum of the numbers is:", total)
+
+from queue import LifoQueue
+stack =LifoQueue(maxsize=3)
+print(stack.qsize())
+stack.put('a')
+stack.put('b')
+stack.put('c')
+print ("full:",stack.full())
+print("size:",stack.qsize())
