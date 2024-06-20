@@ -94,7 +94,6 @@ def assign_grade(marks):
     else:
         return 'Fail'
 
-
 student_results = {}
 
 for reg_num, name in student_details.items():
@@ -102,8 +101,18 @@ for reg_num, name in student_details.items():
     if marks is not None:
         grade = assign_grade(marks)
         student_results[name] = {'Registration Number': reg_num, 'Marks': marks, 'Grade': grade}
-
-
 print("Student Results:")
 for name, result in student_results.items():
     print(f"Name: {name}, Registration Number: {result['Registration Number']}, Marks: {result['Marks']}, Grade: {result['Grade']}")
+
+
+
+numele = int(input("Enter the number of elements: "))
+numbers = []
+for i in range(numele):
+    num = int(input(f"Enter number {i+1}: "))
+    numbers.append(num)
+total= 0
+for num in numbers:
+    total+= num
+print("The sum of the numbers is:", total)
