@@ -106,7 +106,7 @@ for name, result in student_results.items():
     print(f"Name: {name}, Registration Number: {result['Registration Number']}, Marks: {result['Marks']}, Grade: {result['Grade']}")
 
 
-
+#sum of all numbers 
 numele = int(input("Enter the number of elements: "))
 numbers = []
 for i in range(numele):
