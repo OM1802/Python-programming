@@ -125,3 +125,69 @@ stack.put('b')
 stack.put('c')
 print ("full:",stack.full())
 print("size:",stack.qsize())
+
+
+def km_to_miles(km):
+    miles = km * 0.621371
+    return miles
+if __name__ == "__main__":
+    km = float(input("Enter distance in kilometers: "))
+    miles = km_to_miles(km)
+    print(f"{km} kilometers is equal to {miles} miles")
+
+from numpy import *
+a=array([['mon',18,20,22,17],['Two',11,18,21,18],
+['wed',15,21,20,19],['Thu',11,20,22,21],
+['fri',18,17,23,22],['sat',12,22,20,18],
+['sun',13,15,19,16]])
+m=reshape(a,(7,5))
+print(m)
+
+
+from numpy import *
+a=array([['mon',18,20,22,17],['Two',11,18,21,18],
+['wed',15,21,20,19],['Thu',11,20,22,21],
+['fri',18,17,23,22],['sat',12,22,20,18],
+['sun',13,15,19,16]])
+m=reshape(a,(7,5))
+print(m)
+
+from numpy import *
+a=array([['mon',18,20,22,17],['Two',11,18,21,18],
+['wed',15,21,20,19],['Thu',11,20,22,21],
+['fri',18,17,23,22],['sat',12,22,20,18],
+['sun',13,15,19,16]])
+m=append(m,[['Avg',12,15,13,11]],0)
+print(m)
+
+from numpy import *
+a=array([['mon',18,20,22,17],['Two',11,18,21,18],
+['wed',15,21,20,19],['Thu',11,20,22,21],
+['fri',18,17,23,22],['sat',12,22,20,18],
+['sun',13,15,19,16]])
+m=reshape(a,(7,5))
+print(m)
+
+
+set1 = {1, 2, 3, 4, 5}
+set2 = {3, 4, 5, 6, 7}
+intersection_set = set1.intersection(set2)
+print(intersection_set) 
+
+set1 = {1, 2, 3, 4, 5}
+set2 = {3, 4, 5, 6, 7}
+
+union_set = set1 | set2
+print("Union:", union_set) 
+
+intersection_set = set1 & set2
+print("Intersection:", intersection_set)  
+
+difference_set = set1 - set2
+print("Difference (set1 - set2):", difference_set)  
+
+import collections
+dict1 ={'day1':'mon','day2':'tue')
+dict2 ={'day3':'wed','day4':'thu')
+
+res = collection.chainmap(dict1,dict2)
