@@ -191,3 +191,60 @@ dict1 ={'day1':'mon','day2':'tue')
 dict2 ={'day3':'wed','day4':'thu')
 
 res = collection.chainmap(dict1,dict2)
+
+
+
+class Node:
+    def __init__(self, data):
+        self.data = data
+        self.prev = None
+        self.next = None
+
+class DoublyLinkedList:
+    def __init__(self):
+        self.head = None
+    def push(self,newVa1):
+        
+        NewNode = Node(newVa1)
+        NewNode.next= self.head
+        if self.head is not None:
+            self.head.prev = NewNode
+        self.head = NewNode
+            
+    def listprint(self,node):
+        while(node is not None):
+            print(node.data),
+            list=node
+            node=node.next
+                        
+dllist=DoublyLinkedList()
+dllist.push(12)
+dllist.push(8)
+dllist.push(62)
+dllist.listprint(dllist.head)
+#################################################################
+
+def insert(self,prev_node,NewVal):
+    if prev_node is None:
+        if prev_node is None:
+            return
+        NewNode = Node(NewVa1)
+        NewNode.next =prev_node.next
+        prev_node.next =NewNode
+        NewNode.prev =prev_node
+        if NewNode.next is not None:
+            NewNode.next,prev =NewNode
+            
+        #####################################################
+         def append(self,NewVal):
+             NewNode = Node(NewVa1)
+              NewNode.next =None
+              if self.head is None:
+                  NewNode.prev =None
+                  self.head =NewNode
+                  return
+              last = self.head
+              while (last.next is not None):
+                  last =last.next
+                  last.next =NewNode
+                  NewNode.prev =last
