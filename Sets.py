@@ -1,3 +1,4 @@
+#code showing data type sets
 set(['rap','house','electronic music', 'rap'])//converting into a set
 A = [1, 2, 2, 1]
 B = set([1, 2, 2, 1])
