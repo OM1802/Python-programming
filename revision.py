@@ -265,3 +265,26 @@ names = ["OM", "HARSH", "UDIT", "SANJEEV", "SHIWADITYA", "ANUBHAV"]
 result = teams(names)
 for i, team in enumerate(result, 1):
     print(f"Team {i}: {team[0]} and {team[1]}")
+
+#take 3 list as input from function triple_shuffle  and shuffle each list among their own members
+import random
+def triple_shuffle(l1,l2,l3):
+    random.shuffle(l1)
+    random.shuffle(l2)
+    random.shuffle(l3)
+    
+    return l1,l2,l3
+    
+l1=['A', 'B', 'C', 'D']
+l2=['OM', 'HARSH', 'UDIT']
+l3=[1, 2, 3, 4, 5]
+print("BEFORE SHUFFLE:- ")
+print(l1)
+print(l2)
+print(l3)
+triple_shuffle(l1,l2,l3)
+print("AFTER SHUFFLE:- ")
+print(l1)
+print(l2)
+print(l3)
+    
