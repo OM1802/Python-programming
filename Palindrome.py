@@ -1,3 +1,4 @@
+#code to check if a number is palindrome or not
 n=int(input("ENTER A NUMBER: \n"))
 temp=n
 reverse=0
