@@ -1,3 +1,4 @@
+#code to check if a number is composite 
 num=int(input("Enter any Number : "))
 count=0
 for a in range(2,num):
