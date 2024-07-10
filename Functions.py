@@ -1,3 +1,4 @@
+#code for functions in python 
 def div(a,b):
     return(a/b)
 
