@@ -1,3 +1,4 @@
+#code to check the power of a number 
 # input number
 inputNumber = 5
 # input exponent value
