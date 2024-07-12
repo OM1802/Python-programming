@@ -2,6 +2,7 @@
 shoppingList=[];
 shoppingList=["Watch", "Laptop", "Shoes", "Pen", "Clothes"];
 shoppingList.append("Football")
+shoppingList.append("Basketball")
 print(shoppingList[0], "is the forst item on the list")
 print(shoppingList[-1]," is the last item on list")
 print(shoppingList[0:6]," is the whole list items")
