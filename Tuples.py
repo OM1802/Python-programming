@@ -1,3 +1,4 @@
+#code to demonstrate tuple data type
 shoppingList=[];
 shoppingList=["Watch", "Laptop", "Shoes", "Pen", "Clothes"];
 shoppingList.append("Football")
