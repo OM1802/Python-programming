@@ -1,8 +1,4 @@
-# Define a tuple
+# code to convert tuple to set datatype
 my_tuple = (1, 2, 3, 4, 5)
-
-# Convert the tuple to a set
 my_set = set(my_tuple)
-
-# Print the set
 print(my_set)
