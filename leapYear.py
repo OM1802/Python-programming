@@ -1,3 +1,4 @@
+#code to check if a year is leap year or not
 def CheckLeap(Year):  
   if((Year % 400 == 0) or  
      (Year % 100 != 0) and  
