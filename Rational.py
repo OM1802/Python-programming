@@ -1,3 +1,4 @@
+#code to check if a number is rational or not 
 from fractions import Fraction
 
 def is_rational(number):
